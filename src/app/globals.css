@@ -6,8 +6,34 @@
 
 body {
   background-color:black;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1{
   color:aquamarine;
+}
+
+h2{
+  color: aliceblue;
+}
+
+.row{
+  padding: 1em;
+  border:1px solid red;
+  background-color: #d33d3d30;
+}
+
+.wrapper{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+}
+
+.phara{
+  color: aliceblue;
+}
+
+h3{
+  color: aliceblue;
 }
